@@ -10,7 +10,7 @@ description: index.html of www.yebin.info
 
 * [Profile](https://plus.google.com/u/0/111730946330475204627/about "叶斌的简介")
 
-* [备用网站](calepin.yebin.info "github 收到屏蔽时请访问 blogspot")
+* [备用网站](calepin.yebin.info "本站受屏蔽时请访问 blogspot")
 
 * [联系](http://www.google.com/recaptcha/mailhide/d?k=01pQWqEBdhPafoq8zGW2d99w==&c=V3fz3TZK9GkOgTUi5fXexp9i_NzeIefH8cbCepHNwe0= "加密的邮箱地址")
 
