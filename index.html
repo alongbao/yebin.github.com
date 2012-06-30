@@ -1,0 +1,14 @@
+---
+layout: page
+title : samuel bīn Yè
+header : samuel bīn YE index.html
+description: samuel bīn YE index
+tagline: Physician & Health Care Supporter
+---
+{% include JB/setup %}
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}" rel="no follow">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>

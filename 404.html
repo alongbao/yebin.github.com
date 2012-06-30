@@ -1,1 +1,35 @@
-Sorry this page does not exist =(
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="Ye Bin" />
+<meta name="keywords" content="404: not found" />
+<title>404: Not Found</title>
+<body>
+<h2>404: Not Found</h2>
+<h3>Oops, the page you want is not available.</h3>
+
+You might be interested in:
+
+<ul>
+<li>
+Return to the <a href="http://www.yebin.info/">index page</a>, or
+</li>
+<li>search again:
+
+<div id="cse" style="width: 100%;">Loading</div>
+<script src="https://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript"> 
+  google.load('search', '1', {language : 'zh-CN', style : google.loader.themes.V2_DEFAULT});
+  google.setOnLoadCallback(function() {
+    var customSearchOptions = {};  var customSearchControl = new google.search.CustomSearchControl(
+      '013143429373520054924:kzuzxkfxf0y', customSearchOptions);
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    customSearchControl.draw('cse');
+  }, true);
+</script>
+</li>
+</ul>
+
+</body>
+</html>
