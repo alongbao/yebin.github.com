@@ -10,7 +10,7 @@ description: Archievs
 {% if forloop.index == 1 %} data-loaded="1"{% endif %}>
 	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	{% if forloop.index == 1 and preview %}
-		{{content}}
+		{{blog.content}}
 	{% endif %}
 {% endfor %}
 {% assign posts_collate = site.posts %}
