@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Greeting
-tagline: 
-description: index.html of www.yebin.info
+description: www.yebin.info 首页
 ---
 {% include JB/setup %}
 
