@@ -32,19 +32,16 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 ### Jekyll SEO Meta 优化
 
 * 将搜索结果指向我的 Google Plus
-	
 {% highlight clojure %}
  <link rel="author" href="https://plus.google.com/u/0/111730946330475204627" />
 {% endhighlight %}
 
 * 加入页面描述 Description ，内容来自于页面头部自定义 YAML 
-
 {% highlight clojure %}
 <meta name="description" content="{\{page.description}\}" />
 {% endhighlight %}
 	
 * 加入页面关键词 keywords
-
 {% highlight clojure %}
 {\% if page.categories %\}
 <meta name="keywords" content="{\{ page.categories }\}" />
