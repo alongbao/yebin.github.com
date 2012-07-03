@@ -1,11 +1,12 @@
 <div id="page">
 	
   <h1 class="emphnext">{{ page.title }}</h1>
-  <ul class="tag_box inline">
+<span class="date">Posted on {{ site.time | date_to_xmlschema }}</span> 
+ <ul class="tag_box inline">
   {% assign tags_list = page.tags %}
   {% include JB/tags_list %}
   </ul>
-<span class="date">{{ site.time | date_to_xmlschema }}</span>
+
   {{ content }}
 
   
