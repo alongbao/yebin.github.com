@@ -22,7 +22,7 @@ IE 6.0 由 Microsoft 捆绑在操作系统内提供，2011年和 Windows XP 一�
 
 取消日志的日期戳，改为时间戳，在日志 ..\_includes\themes\mark-reid\post.html 恰当的位置写入以下代码
 {% highlight clojure %}
-	 {{ site.time | date_to_xmlschema }}
+	`{{ site.time | date_to_xmlschema }}`
 {% endhighlight %}
 
 ### 404 页面优化
