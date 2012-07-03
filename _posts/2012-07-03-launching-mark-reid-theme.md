@@ -47,11 +47,11 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 
 {% highlight clojure %}
 	 {\% if page.categories %\}
-	 <meta name="keywords" content="{{ page.categories }}" />
+	 <meta name="keywords" content="{\{ page.categories }\}" />
 	 {\% else %\}
-	 <meta name="keywords" content="{{ page.tags }}" />
+	 <meta name="keywords" content="{\{ page.tags }\}" />
 	 {\% else %\}	
-	 <meta name="keywords" content="{{site.description}} />
+	 <meta name="keywords" content="{\{site.description}\} />
      {\% endif %\}
 {% endhighlight %}	
 
