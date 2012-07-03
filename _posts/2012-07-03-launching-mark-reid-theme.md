@@ -22,7 +22,7 @@ IE 6.0 由 Microsoft 捆绑在操作系统内提供，2011年和 Windows XP 一�
 
 取消日志的日期戳，改为时间戳，在日志 ..\_includes\themes\mark-reid\post.html 恰当的位置写入以下代码
 
-	<pre>{{ site.time | date_to_xmlschema }}</pre>
+	 {{ site.time | date_to_xmlschema }}
 
 ### 404 页面优化
 
@@ -32,23 +32,22 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 
 * 将搜索结果指向我的 Google Plus
 	
-	<link rel="author" href="https://plus.google.com/u/0/111730946330475204627" />
+	 <link rel="author" href="https://plus.google.com/u/0/111730946330475204627" />
 
 * 加入页面描述 Description ，内容来自于页面头部自定义 YAML 
 
 {% highlight clojure %}
 <meta name="description" content="{{page.description}}" />
-{% endhighlight %}
 	
 * 加入页面关键词 keywords
 
-	<pre>{% if page.categories %}
-		<meta name="keywords" content="{{ page.categories }}" />
-	{% else %}
-		<meta name="keywords" content="{{ page.tags }}" />
-	{% else %}	
-		<meta name="keywords" content="{{site.description}} />
-	{% endif %}</pre>
+	 {% if page.categories %}
+	 <meta name="keywords" content="{{ page.categories }}" />
+	 {% else %}
+	 <meta name="keywords" content="{{ page.tags }}" />
+	 {% else %}	
+	 <meta name="keywords" content="{{site.description}} />
+     {% endif %}</pre>
 	
 以上 keywords 的意义在于：
 
