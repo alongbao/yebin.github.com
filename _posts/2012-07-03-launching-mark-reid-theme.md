@@ -36,7 +36,7 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 
 * 加入页面描述 Description ，内容来自于页面头部自定义 YAML 
 
-	<pre><meta name="description" content="{{page.description}}" /></pre>
+	<pre class="prettyprint linenums"><meta name="description" content="{{page.description}}" /></pre>
 	
 * 加入页面关键词 keywords
 
