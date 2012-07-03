@@ -32,11 +32,11 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 
 * 将搜索结果指向我的 Google Plus
 	
-	<code><link rel="author" href="https://plus.google.com/u/0/111730946330475204627" /></code>
+	<link rel="author" href="https://plus.google.com/u/0/111730946330475204627" />
 
 * 加入页面描述 Description ，内容来自于页面头部自定义 YAML 
 
-	<code>`<meta name="description" content="{{page.description}}" />`</code>
+	<meta name="description" content="{{page.description}}" />
 	
 * 加入页面关键词 keywords
 
