@@ -46,14 +46,13 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 * 加入页面关键词 keywords
 
 {% highlight clojure %}
-	 `{% if page.categories %}`
-	 `<meta name="keywords" content="{{ page.categories }}" />`
-	 {% else %}
+	 {\% if page.categories %\}
+	 <meta name="keywords" content="{{ page.categories }}" />
+	 {\% else %\}
 	 <meta name="keywords" content="{{ page.tags }}" />
-	 {% else %}	
+	 {\% else %\}	
 	 <meta name="keywords" content="{{site.description}} />
-     {% endif %}
-
+     {\% endif %\}
 	 {% endhighlight %}	
 
 以上 keywords 的意义在于：
@@ -79,3 +78,7 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 *The End*
 
 ------
+
+Update:  
+
+* Jekyll 代码高亮需要找到彻底的解决办法。
