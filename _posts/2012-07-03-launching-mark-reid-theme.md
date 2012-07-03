@@ -21,9 +21,9 @@ IE 6.0 由 Microsoft 捆绑在操作系统内提供，2011年和 Windows XP 一�
 ### Time Stamp
 
 取消日志的日期戳，改为时间戳，在日志 ..\_includes\themes\mark-reid\post.html 恰当的位置写入以下代码
-{% highlight clojure %}
-	`{{ site.time | date_to_xmlschema }}`
-{% endhighlight %}
+
+	 {/{ site.time | date_to_xmlschema }/}
+
 
 ### 404 页面优化
 
@@ -44,6 +44,7 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 {% endhighlight %}
 	
 * 加入页面关键词 keywords
+
 {% highlight clojure %}
 	 {% if page.categories %}
 	 <meta name="keywords" content="{{ page.categories }}" />
@@ -51,8 +52,10 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 	 <meta name="keywords" content="{{ page.tags }}" />
 	 {% else %}	
 	 <meta name="keywords" content="{{site.description}} />
-     {% endif %}</pre>
-{% endhighlight %}	
+     {% endif %}
+
+	 {% endhighlight %}	
+
 以上 keywords 的意义在于：
 
 1. 如果页面已分类，使用分类词作为 seo 关键词。
@@ -65,8 +68,6 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 
 以上 Kill IE6 和 Jekyll SEO 均在 `..\_includes\themes\mark-reid\default.html` 完成。SEO 到底有多大作用现在还争议很大，反正各大网站都用了，我加上也不吃亏。
 
-------
-
 参考
 
 1. [Internet Explorer历史](http://en.wikipedia.org/wiki/History_of_Internet_Explorer)
@@ -76,3 +77,5 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 3. https://github.com/mreid/mark.reid.name.git
 
 *The End*
+
+------
