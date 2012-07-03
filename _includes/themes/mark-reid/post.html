@@ -5,7 +5,7 @@
   {% assign tags_list = page.tags %}
   {% include JB/tags_list %}
   </ul>
-
+<span class="date">{{ site.time | date_to_xmlschema }}</span>
   {{ content }}
 
   
