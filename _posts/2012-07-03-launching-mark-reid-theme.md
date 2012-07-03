@@ -40,7 +40,7 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 * 加入页面描述 Description ，内容来自于页面头部自定义 YAML 
 
 {% highlight clojure %}
-<meta name="description" content="{{page.description}}" />
+<meta name="description" content="{\{page.description}\}" />
 {% endhighlight %}
 	
 * 加入页面关键词 keywords
