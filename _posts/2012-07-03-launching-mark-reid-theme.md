@@ -2,7 +2,7 @@
 layout: post
 title: 转向 Mark Reid 模板
 category: essay
-tags: [Jekyll,SEO]
+tags: [Jekyll, SEO]
 description: Mark Reid for Jekyll 模板兼容 IE6，Chrome，Opera，Firefox，Safari
 published: true
 ---
@@ -18,6 +18,11 @@ IE 6.0 由 Microsoft 捆绑在操作系统内提供，2011年和 Windows XP 一�
 
 切换到 Mark Reid 模板后，所有页面在 IE6 中全部正常显示，板块和图片位置基本正常，我相信这会留住部分网页访客。不过为了提醒访客及时升级浏览器，我在页面加入了 [Kill IE6 控件](http://www.neoease.com/ie6-must-die/)。
 
+### Time Stamp
+
+取消日志的日期戳，改为时间戳，在日志 ..\_includes\themes\mark-reid\post.html 恰当的位置写入以下代码
+
+	`{{ site.time | date_to_xmlschema }}`
 
 ### 404 页面优化
 
@@ -53,7 +58,7 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 
 ### 小结
 
-以上 Kill IE6 和 Jekyll SEO 均在 `..\your_repository\_includes\themes\mark-reid\default.html` 完成。SEO 到底有多大作用现在还争议很大，反正各大网站都用了，我加上也不吃亏。
+以上 Kill IE6 和 Jekyll SEO 均在 `..\_includes\themes\mark-reid\default.html` 完成。SEO 到底有多大作用现在还争议很大，反正各大网站都用了，我加上也不吃亏。
 
 ------
 
