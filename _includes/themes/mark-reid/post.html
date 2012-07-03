@@ -9,19 +9,7 @@
 
   {{ content }}
 
-<!-- JiaThis Button BEGIN -->
-<script type="text/javascript" >
-var jiathis_config={
-	siteNum:5,
-	sm:"tsina,tqq,email,googleplus,twitter",
-	summary:"",
-	boldNum:3,
-	showClose:true,
-	hideMore:false
-}
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jiathis_r.js?btn=r5.gif&move=0" charset="utf-8"></script>
-<!-- JiaThis Button END -->
+
 
   
   <div class="prev-next">
@@ -34,7 +22,26 @@ var jiathis_config={
   {% endif %}
   </div>
   
-</div><!-- End Page -->
+</div>
+<!-- JiaThis Button BEGIN -->
+<div id="jiathis_style_32x32">
+<a class="jiathis_button_tsina"></a>
+<a class="jiathis_button_tqq"></a>
+<a class="jiathis_button_twitter"></a>
+<a class="jiathis_button_email"></a>
+<a class="jiathis_button_googleplus"></a>
+<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+var jiathis_config={
+	summary:"",
+	hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
 
 {% include JB/comments %}
   {% include JB/analytics %}
