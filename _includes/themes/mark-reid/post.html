@@ -1,5 +1,5 @@
 <div id="page">
-<div>	
+
   <h1 class="emphnext">{{ page.title }}</h1>
 <span class="date">Posted on {{ site.time | date_to_xmlschema }}</span> 
  <ul class="tag_box inline">
@@ -11,16 +11,18 @@
 
 
 <!-- JiaThis Button BEGIN -->
-<div id="jiathis_style_32x32">
-<a class="jiathis_button_tsina"></a>
-<a class="jiathis_button_tqq"></a>
-<a class="jiathis_button_twitter"></a>
-<a class="jiathis_button_email"></a>
-<a class="jiathis_button_googleplus"></a>
-</div>
+<script type="text/javascript" >
+var jiathis_config={
+	siteNum:6,
+	sm:"email,tsina,tqq,googleplus,twitter",
+	summary:"",
+	boldNum:3,
+	showClose:true,
+	hideMore:true
+}
+</script>
 
-<!-- JiaThis Button END -->
-</div>
+
   <div class="prev-next">
   {% if page.next %}
     <a href="{{ page.next.url }}" class="next" title="{{ page.next.title }}">Next Post &rarr;</a>
