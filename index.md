@@ -25,4 +25,5 @@ description: www.yebin.info 首页
   {% endfor %}
 </ul>
 
-{{ page.categories }}
+{% assign categories_list = page.categories %}
+  {% include JB/categories_list %}
