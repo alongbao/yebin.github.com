@@ -25,4 +25,4 @@ description: www.yebin.info 首页
   {% endfor %}
 </ul>
 
-{page.categories}
+{{ page.categories }}
