@@ -18,7 +18,7 @@ description: www.yebin.info 首页
 感谢你的访问和留言。
 
   <ul class="posts">
-    {% for post in site.related_posts limit:1 %}
+    {% for post in site.related_posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
