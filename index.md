@@ -18,6 +18,9 @@ description: www.yebin.info 首页
 感谢你的访问和留言。
 
 
-**最新日志** <span>% for post in site.posts limit:1 %}
+**最新日志**
+<ul class="posts">
+  {% for post in site.posts limit:1 %}
     <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}<span>
+  {% endfor %}
+</ul>
