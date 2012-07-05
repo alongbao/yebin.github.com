@@ -3,5 +3,5 @@ deny from all
 </Files>
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^(yebin\.info)(:80)? [NC]
-RewriteRule ^(.*) http://www.yebin.info/$1 [R=301,L]
+RewriteRule ^(.*) http://www.yebin.info [R=301,L]
 order deny,allow
