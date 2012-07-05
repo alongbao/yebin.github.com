@@ -1,7 +1,3 @@
-<IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^yebin.info$ [NC]
-RewriteRule ^(.*)$ http://www.yebin.info/$1 [R=301,N]
-
-</IfModule>
+RewriteRule ^(.*)$ http://www.slyar.com [R=301,L]
 
