@@ -16,3 +16,9 @@ description: www.yebin.info 首页
 * [联系](http://www.google.com/recaptcha/mailhide/d?k=01pQWqEBdhPafoq8zGW2d99w==&c=V3fz3TZK9GkOgTUi5fXexp9i_NzeIefH8cbCepHNwe0= "加密的邮箱地址")
 
 感谢你的访问和留言。
+
+  <ul class="posts">
+    {% for post in site.related_posts limit:1 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
