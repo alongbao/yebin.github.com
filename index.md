@@ -17,8 +17,10 @@ description: www.yebin.info 首页
 
 感谢你的访问和留言。
 
+
+### 日志
 <ul class="posts">
   {% for post in site.posts limit:1 %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}" rel="no follow">{{ post.title }}</a></li>
+    <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
