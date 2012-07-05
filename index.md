@@ -24,3 +24,5 @@ description: www.yebin.info 首页
     <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+{page.categories}
