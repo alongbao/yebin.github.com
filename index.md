@@ -18,12 +18,9 @@ description: www.yebin.info 首页
 感谢你的访问和留言。
 
 
-**日志**
+**最新日志**
 <ul class="posts">
   {% for post in site.posts limit:1 %}
     <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-{% assign categories_list = page.categories %}
-  {% include JB/categories_list %}
