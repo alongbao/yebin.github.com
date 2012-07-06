@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Greeting
 description: www.yebin.info 首页
 ---
