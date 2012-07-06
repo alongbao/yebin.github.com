@@ -1,0 +1,50 @@
+<div id="page">
+
+  <h1 class="emphnext">{{ page.title }}</h1>
+<span class="date">Posted on {{ site.time | date_to_xmlschema }}</span> 
+ <ul class="tag_box inline">
+  {% assign tags_list = page.tags %}
+  {% include JB/tags_list %}
+  </ul>
+
+  {{ content }}
+
+
+<!-- JiaThis Button BEGIN -->
+<script type="text/javascript" >
+var jiathis_config={
+	siteNum:5,
+	sm:"email,tsina,tqq,googleplus,twitter",
+	summary:"",
+	boldNum:3,
+	showClose:true,
+	hideMore:true
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jiathis_r.js?btn=r5.gif&move=0" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+  <div class="prev-next">
+  {% if page.next %}
+    <a href="{{ page.next.url }}" class="next" title="{{ page.next.title }}">Next Post &rarr;</a>
+  {% endif %}
+   
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; Earlier Post</a>
+  {% endif %}
+  </div>
+
+  <div id="related">
+  <h2>Related Posts</h2>
+<ul class="posts">
+  {% for post in site.related_posts limit:5 %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}" rel="no follow">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+</div>
+  
+</div>
+
+
+{% include JB/comments %}
+  {% include JB/analytics %}
