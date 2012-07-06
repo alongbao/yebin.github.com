@@ -8,71 +8,267 @@
 <link rel="author" href="https://plus.google.com/u/0/111730946330475204627" />
 <link rel="shortcut icon" href="/images/favicon.ico" />
 <style type="text/css">
-	body {
-		margin: 40px 0px 40px 40px;
-		padding: 0;
-		line-height: 1.6em;
-		font-family : 宋体_GB2312,仿宋_GB2312;
-		
-	}
-	
-	#a4 {
-		position: relative;
-		max-width: 595.2756px;
-		height: 841.8898px;
-		border: 1px;
-	}
-	
-	#header {
-		color: red;
-		font-family : 宋体_GB2312;
-		font-size: 36pt;
-		text-align: center;
-	}
-	
-	.description {
-		font-family : 仿宋_GB2312;
-		font-size: 14pt;
-		text-align:center;
-		padding-top: 15px;
-		}	
-	
-	h2 {
-		font-size: 21pt;
-		font-family : 宋体_GB2312;
-		}
-	
-	.mainbody {
-		padding-right: 40px;
-		float: left;
-		font-family : 仿宋_GB2312;
-		border: 1px;
-	}
 
-	p {
-	margin:0 0 9px;line-height:28pt;
-	}
+body {
+	font-family: 宋体,仿宋;
+}
 
+/* Hack via Joel Spolsky to make image rescaling nicer in IE */
+img { -ms-interpolation-mode:bicubic; }
+
+/* IE6 ignores this and uses default size of 16pt */
+html>body { font-size:14px; }
+p { margin: 0 0 1.5em 0; text-align: justify; }
+
+h1 {
+	font-family: 宋体;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: center;}
+
+description {
+	font-family: 仿宋;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;}
+	
+h2 {
+	font-family: 仿宋;
+	font-size: 21px;
+	font-weight: normal;}
+
+
+hr { 
+	border-top: 1px solid silver;
+	border-bottom: none;
+	padding: 0;
+	margin: 1.46em 0 0 0;
+}
+
+#site {
+	max-width: 595.2756px;
+	margin: 1.5em auto 3em auto;
+	line-height:28px;
+	Height=841.8898 px
+}
+
+/* TODO
+#page { counter-reset: section; }
+#page h2:before {
+	margin-left: -3.5ex;
+	color: silver;
+	content: "搂" counter(section) ". ";
+	counter-increment: section 2;
+}
+*/
+
+/* @group FancyFirst */
+.emphnext + p:first-letter, p.emphfirst:first-letter {
+	font-size: 48px;
+	padding: 0 0.15em 0 0;
+	margin:  0.05em 0 -0.15em 0;
+	line-height: 1em;
+	float: left;
+}
+
+.emphnext + p:first-line, p.emphfirst:first-line {
+	font-variant: small-caps;
+	font-size: larger;
+}
+/* @end */
+
+.right { float: right; clear: left; }
+.left { float: left; clear: right; }
+.inset { 
+	border: 1px solid silver; 
+	padding: 2px;
+	margin: 0em 0.8em 0.8em 0.8em;
+}
+.right.inset { margin-right: 0 !important; }
+.left.inset { margin-left: 0 !important; }
+.quiet {
+	color: grey;
+	font-size: 0.875em;
+	line-height: 1.714em;
+}
+
+/* @group Table */
+table.neat {
+	width: 80%;
+	margin: 1.5em auto 1.5em auto;
+	table-layout: fixed;
+	border-spacing: 0;
+}
+table.neat tr { text-align: center; }
+table.neat th { font-weight: normal; background-color: #eeeeee; }
+table.neat td { background-color: white; }
+table.neat th.title { border-bottom: 1px solid gray; border-top: 1px solid gray; vertical-align: bottom; background-color: lightgrey; }
+caption { 
+	color: #333;
+	font-size: 0.875em;
+	margin: 0.875em auto 0 auto;
+	line-height: 1.14em;
+	text-align: justify;
+}
+
+/* @end */
+
+
+/* @group Header */
+#header, #header a { color: silver; }
+#header .hover { color: transparent; }
+#header:hover a { color: black; text-shadow: #aaa 2px 2px 3px;}
+#header:hover a:hover { text-decoration: none; }
+#header a:hover .hover { color: silver; }
+#header {
+	position: relative;
+	font-variant: small-caps;
+	line-height: 1em;
+	margin-top: .5em;
+	margin-bottom: 0;
+}
+#header h1 {
+	font-family: Palatino, georgia, "times new roman", serif;
+	margin-bottom: 0;
+	line-height: 0.9em;
+	display: block;
+	font-weight: normal;
+}
+
+#header ul {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 100%;
+	line-height: 1.6em;
+	display: block;
+	margin: 0;
+	width: 50%;
+	text-align: right;
+}
+#header ul li { display: inline; }
+#header ul li a {
+	padding: 0.4em 0.3em 0 0.3em;
+	display: inline;
+}
+#header ul li a:hover {
+	color: blue;
+	border-bottom: 2px solid blue;
+}
+#header .byline {
+	color: silver;
+	font-size: 10pt;
+	line-height: 75%
+}
+#header:hover .byline a { color: silver; text-shadow: none; }
+#header:hover .byline a:hover { color: black; text-shadow: #aaa 1px 1px 2px;}
+
+
+
+.list .title { font-weight: bold; }
+p.line { position: relative; margin: 0; }
+p.excerpt { margin: 0; }
+.comments { font-size: smaller; position: absolute; color: silver; right: 0; top: 0; }
+.excerpt { color: black; }
+
+
+
+/* @group Footer */
+#footer {
+	margin-top: 0;
+	color: grey;
+	font-size: 87.5%;
+	line-height: 1.3em;
+}
+#footer address {
+	position: relative;
+	margin: .5em 0 0 0;
+	text-align: right;
+}
+#footer a {
+	font-variant: small-caps;
+	font-style: normal;
+	color: #77d;
+	text-decoration: none;
+}
+#footer .copyright {
+	position: absolute;
+	left: 0;
+	text-align: left;
+	display: block;
+}
+#footer .engine {
+	position: absolute;
+	text-align: right;
+	display: block;
+	right: 0;
+}
+/* @end */
+
+
+/* @group Figures and images */
+dl.figure {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	text-align: center;
+}
+
+dl.figure dd {
+	color: #333;
+	font-size: 0.875em;
+	margin: 0.875em auto 0 auto;
+	line-height: 1.14em;
+	text-align: justify;
+	width: 85%;
+}
+/* @end */
+
+
+/* tag_box ======================================================== */
+.tag_box {
+	list-style:none;
+	margin:0;
+	padding:5px 0 ;
+	overflow:hidden;
+}
+.tag_box li {
+	list-style:none;
+	line-height:1.8em;
+}
+.tag_box.inline li {
+	float:left;
+}
+.tag_box a {
+	padding: 3px 6px;
+	margin: 2px;
+	background: #eee;
+	border-radius: 3px;
+	border:1px dashed #ccc;
+	text-decoration:none;
+}
+.tag_box a span{
+	vertical-align:super;
+	font-size:0.8em;
+}
+.tag_box a.active {
+	background:#57A957;
+	border:1px solid #4C964D;
+	color:#FFF;
+}
 
 	</style>
 </head>
 
 <body>
-<div id="a4">
-	<div class="header">叶斌的个人网站
-	</div>
-
-	<div class="description">博客发〔2012〕4号
-	</div>
-
+<div id="site">
+	<div id="page">
+	<h1>叶斌的个人网站</h1>
+	<description">博客发〔2012〕4号</description>
 	<hr color="red">
-	
-	<div id="mainbody">
 	<h2>关于选拔2012年全科医生赴 Tasmania 培训的通知</h2>
 	<p>医疗事务部，全科医学中心：</p>
 正文……
 	</div>
-</tr>
 </div>
 </body>
 </html>
