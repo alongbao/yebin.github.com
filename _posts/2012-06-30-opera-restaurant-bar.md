@@ -34,4 +34,6 @@ description: 对广州大剧院入住肯德基和必胜客的看法
 
 不经选择去追求盈利率，如同街上穿睡衣的美女，和 Phantom 车镜上缠绕了一条红布，shocking 。
 
-*The End*
+-The End-
+
+------
