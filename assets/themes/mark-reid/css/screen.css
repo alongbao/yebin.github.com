@@ -476,7 +476,6 @@ p.delicious-extended:before { content: ' — '; }
 }
 #footer .centre {
 	position: absolute;
-	center: 0;
 	text-align: center;
 	display: block;
 }
