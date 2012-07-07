@@ -5,7 +5,7 @@ description: www.yebin.info 首页
 ---
 {% include JB/setup %}
 
-<img style="width:650px;float:center" alt="Roy Flying Doctor Service 飞行演练" src="http://yebin-wordpress.stor.sinaapp.com/uploads/2012/06/rfds.jpg"/></a>
+<img style="width:650px;float:center" alt="Roy Flying Doctor Service 飞行演练" src="http://yebin-wordpress.stor.sinaapp.com/uploads/2012/06/rfds.jpg"/>
 
 这里是叶斌的个人网站。这里收录了我的随想，和职业感悟。
 
