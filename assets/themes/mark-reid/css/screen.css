@@ -474,6 +474,12 @@ p.delicious-extended:before { content: ' — '; }
 	text-align: left;
 	display: block;
 }
+#footer .centre {
+	position: absolute;
+	left: 0;
+	text-align: center;
+	display: block;
+}
 #footer .engine {
 	position: absolute;
 	text-align: right;
