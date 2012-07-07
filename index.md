@@ -12,7 +12,7 @@ description: www.yebin.info 首页
 <table align="center">
 <tbody>
 <tr>
-<td width=100px><a href="http://calepin.yebin.info" title="本站受屏蔽时请访问 blogspot">备用网站</a></td>
+<td width=100px><ul><a href="http://calepin.yebin.info" title="本站受屏蔽时请访问 blogspot">备用网站</a></ul></td>
 <td width=100px><a href="https://plus.google.com/u/0/111730946330475204627/about" title=""叶斌的简介"">Profile</a></td>
 </tr>
 </tbody>
