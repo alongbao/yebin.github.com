@@ -12,10 +12,8 @@ description: www.yebin.info 首页
 * [备用网站](http://calepin.yebin.info)
 * [Profile](https://plus.google.com/u/0/111730946330475204627/about)
 
-感谢你的访问和留言。
+感谢你的访问和留言。**Latest Blog**
 
-
-**Latest Blog**
 <ul class="posts">
   {% for post in site.posts limit:1 %}
     <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
