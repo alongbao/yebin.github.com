@@ -68,7 +68,7 @@ task :post do
     post.puts "published: false"
     post.puts "---"
     post.puts "{% include JB/setup %}"
-	pust.puts "-The End-"
+	post.puts "-The End-"
   end
 end # task :post
 
