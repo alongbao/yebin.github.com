@@ -29,4 +29,5 @@ Ottawa - Grand Falls - Fredericon - St. John - Hopewell Rocks, Provincial Park -
 以上心得和功课同样适用 Ayers Rock  华人平治巴士旅游团。
 
 -The End-
+
 ------
