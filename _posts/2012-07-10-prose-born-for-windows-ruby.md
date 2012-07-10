@@ -4,6 +4,7 @@ title: 巴士旅游 6700Km + 3900Km
 category: essay
 tags: [旅游]
 description: 澳大利亚6700公里，加拿大3900公里，两段陆地旅游均乘搭大巴
+published: false
 ---
 {% include JB/setup %}
 
@@ -31,3 +32,4 @@ Ottawa - Grand Falls - Fredericon - St. John - Hopewell Rocks, Provincial Park -
 -The End-
 
 ------
+
