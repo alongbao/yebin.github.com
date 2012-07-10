@@ -69,6 +69,7 @@ task :post do
     post.puts "---"
     post.puts "{% include JB/setup %}"
 	post.puts "-The End-"
+	post.puts "------"
   end
 end # task :post
 
