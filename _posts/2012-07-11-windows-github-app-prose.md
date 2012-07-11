@@ -50,6 +50,6 @@ Github 的管理以前只有本地模式，和网页后台编辑内容一共两�
 
 [Prose·A Content Editor for Github](http://prose.io/help/getting-started.html)
 
-- The End -
+-The End-
 
 ------
