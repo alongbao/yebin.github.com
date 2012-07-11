@@ -2,7 +2,7 @@
 layout: post
 title: 管理 Github 的网页应用  Prose.io 
 category: support
-tag: [Jekyll, Prose]
+tags: [Jekyll, Prose]
 description: Prose.io is a web-based interface for managing text-based content in your GitHub repositories.
 published: true
 ---
