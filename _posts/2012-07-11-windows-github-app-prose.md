@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 管理 Github 文本的网页应用  Prose.io 
+title: 管理 Github 的网页应用  Prose.io 
 category: support
 tag: [Jekyll, Prose]
 description: Prose.io is a web-based interface for managing text-based content in your GitHub repositories.
@@ -34,6 +34,7 @@ Github 的管理以前只有本地模式，和网页后台编辑内容一共两�
 * 点击 Authorize with GitHub 按钮，授权访问 github 自己的帐户。有可能转向 https://github.com 完成帐户与密码输入，登入。
 * 在列表中选择知识库。
 * 根目录下点击 New File 或 _post 路径下 `+ NEW FILE`新增 markdown 文件。
+* 预览。
 * 编辑文件名，定义 Metadata，通过后台设置打开 `published: true` 或键盘开启，存盘生效。
 
 ## 其他问题
@@ -41,6 +42,7 @@ Github 的管理以前只有本地模式，和网页后台编辑内容一共两�
 * Prose.io 的隐私和安全不全定性。
 * 在 _config.yml 中设定 Prose.io 权限。
 * 期望新增自动保存功能。
+* 期望新增 Metadata 区浮动显示。这会对我查找 Metadata 错误警告帮助极大。
 
 参考
 [Prose·A Content Editor for Github](http://prose.io/help/getting-started.html)
