@@ -6,6 +6,7 @@ tag: [Jekyll, Prose]
 description: Prose.io is a web-based interface for managing text-based content in your GitHub repositories.
 published: true
 ---
+{% include JB/setup %}
 Github 的管理以前只有本地模式，和网页后台编辑内容一共两种。而 Prose.io 的出现革新地提供了网页后台新增，编辑，与删除功能。 对于 Windows 用户而言无疑是天大喜讯。
 
 ## Windows 管理 Repository 的缺陷
@@ -39,6 +40,7 @@ Github 的管理以前只有本地模式，和网页后台编辑内容一共两�
 
 ## 其他问题
 
+* 正文开始必须加入`{% include JB/setup %}`
 * Prose.io 的隐私和安全不全定性。
 * 在 _config.yml 中设定 Prose.io 权限。
 * 期望新增自动保存功能。
