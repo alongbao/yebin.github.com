@@ -40,7 +40,7 @@ Github 的管理以前只有本地模式，和网页后台编辑内容一共两�
 
 ## 其他问题
 
-* 正文开始必须加入{% highlight php %}{% include JB/setup %}{% endhighlight %}
+* 正文开始必须加入{% highlight php %}{/% include JB/setup %/}{% endhighlight %}
 * Prose.io 的隐私和安全不全定性。
 * 在 _config.yml 中设定 Prose.io 权限。
 * 期望新增自动保存功能。
