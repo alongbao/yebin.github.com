@@ -2,8 +2,8 @@
 layout: post
 title: 改善医院公共交通是提高健康公平的基础
 category: support
-tags: []
-description: 完善公共交通并照顾绝大多数医院访客，方可解决深圳医院车辆出入堵塞
+tags: [医院, 停车场]
+description: 完善公共交通并照顾绝大多数医院访客，方可解决深圳医院停车场车辆出入堵塞
 published: ture
 ---
 {% include JB/setup %}
