@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Greeting
+title: 
 description: j.yebin.info 首页 and the branch site of www.yebin.info
 ---
 {% include JB/setup %}
