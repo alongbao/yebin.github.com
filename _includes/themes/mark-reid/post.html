@@ -22,23 +22,18 @@ var jiathis_config={
   {% assign tags_list = page.tags %}
   {% include JB/tags_list %}
   </ul>
-  <div class="prev_next post_nav">
+<div class="prev_next post_nav">
     {% if page.previous.url %}
     <p class="previous">
-        ?&nbsp;<a href="{{ page.previous.url }}/" rel="previous" title="{{ page.previous.title }}">{{ page.previous.title | truncatewords: 15 }}</a>
+        «&nbsp;<a href="{{ page.previous.url }}/" rel="previous" title="{{ page.previous.title }}">{{ page.previous.title | truncatewords: 15 }}</a>
     </p>
     {% endif %}
     {% if page.next.url %}
     <p class="next">
-        <a href="{{ page.next.url }}/" rel="next" title="{{ page.next.title }}">{{ page.next.title | truncatewords: 15 }}</a>&nbsp;?
+        <a href="{{ page.next.url }}/" rel="next" title="{{ page.next.title }}">{{ page.next.title | truncatewords: 15 }}</a>&nbsp;»
     </p>
     {% endif %}
 </div>
-   
-  {% if page.previous %}
-    <a href="{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; Earlier Post</a>
-  {% endif %}
-  </div>
 
   <div id="related">
 <h3>Related posts</h3>
