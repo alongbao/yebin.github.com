@@ -1,7 +1,6 @@
 <div id="page">
 
   <h1 class="emphnext">{{ page.title }}</h1>
-<span class="date">Posted on {{ site.time | date_to_xmlschema }}</span> 
  <ul class="tag_box inline">
   {% assign tags_list = page.tags %}
   {% include JB/tags_list %}
@@ -23,7 +22,7 @@ var jiathis_config={
 </script>
 <script type="text/javascript" src="http://v3.jiathis.com/code_mini/jiathis_r.js?btn=r5.gif&move=0" charset="utf-8"></script>
 <!-- JiaThis Button END -->
-
+<span class="date">Posted on {{ site.time | date_to_xmlschema }}</span> 
   <div class="prev-next">
   {% if page.next %}
     <a href="{{ page.next.url }}" class="next" title="{{ page.next.title }}">Next Post &rarr;</a>
