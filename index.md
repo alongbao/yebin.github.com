@@ -12,7 +12,7 @@ description: www.yebin.info 首页 and the branch site of www.yebin.info
 * [主站](http://www.yebin.info)
 * [Profile](https://plus.google.com/u/0/111730946330475204627/about)
 
-感谢你的访问和留言。**Latest Blog: **
+感谢你的访问和留言。**Latest post: **
 
 <ul class="posts">
   {% for post in site.posts limit:1 %}
