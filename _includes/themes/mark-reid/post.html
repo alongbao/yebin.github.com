@@ -18,8 +18,8 @@ var jiathis_config={
 </script>
 <script type="text/javascript" src="http://v3.jiathis.com/code_mini/jiathis_r.js?btn=r5.gif&move=0" charset="utf-8"></script>
 <!-- JiaThis Button END -->
- <ul class="tag_box inline">
-  Tags on: {% assign tags_list = page.tags %}
+ Tags on: <ul class="tag_box inline">
+  {% assign tags_list = page.tags %}
   {% include JB/tags_list %}
   </ul>
 <div class="prev_next post_nav">
