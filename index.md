@@ -7,7 +7,7 @@ description: 叶斌的个人网站首页 index
 
 <img style="width:650px;float:center" alt="Roy Flying Doctor Service 飞行演练" src="http://yebin-wordpress.stor.sinaapp.com/uploads/2012/06/rfds.jpg"/>
 
-灵感倏然闪现，令这里成为分享知识和推动社区发展的网站。
+灵感倏然闪现，令这里成为叶斌分享知识和推动社区发展的个人网站。
 
 * [Profile](https://plus.google.com/u/0/111730946330475204627/about)
 * [about](http://www.yebin.info/page/about)

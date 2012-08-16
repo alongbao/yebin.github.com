@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 蒙上尘埃的电子邮件
-category: support
+category: post
 tags: [email]
 description: 通常情况下我不处理的三类电子邮件
 

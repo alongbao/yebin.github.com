@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 大剧院洋快餐
-category: essay
+category: post
 tags: [dining]
 description: 对广州大剧院入住肯德基和必胜客的看法
 

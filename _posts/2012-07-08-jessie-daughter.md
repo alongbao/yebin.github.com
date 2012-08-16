@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jessie Gave Birth
-category: essay
+category: post
 tags: [Jessie]
 description: Jessie 的大女儿出生
 

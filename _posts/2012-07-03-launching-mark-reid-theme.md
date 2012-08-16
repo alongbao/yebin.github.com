@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 转向 Mark Reid 模板
-category: essay
+category: article
 tags: [Jekyll, SEO]
 description: Mark Reid for Jekyll 模板兼容 IE6，Chrome，Opera，Firefox，Safari
 published: true

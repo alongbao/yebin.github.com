@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 全科，全科医学，全科医生
-category: essay
+category: post
 tags: [General Practice]
 description: 对广州大剧院入住肯德基和必胜客的看法
 

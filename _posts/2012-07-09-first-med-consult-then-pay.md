@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 先诊疗，后付费
-category: essay
+category: post
 tags: []
 description: 深圳某医院6月18日向综合医疗保险受益人实行『先诊疗，再付费』，值得推广
 ---
