@@ -337,7 +337,8 @@ p.excerpt { margin: 0; }
 /* @end */
 #post-footer{
 	padding: 5 5 5 5;
-	float: center;
+	MARGIN-RIGHT: auto; 
+	MARGIN-LEFT: auto;
 	background-color: #cbecfc;
 	width: 90%;}
 /* @group Code */
