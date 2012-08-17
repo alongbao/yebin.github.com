@@ -336,7 +336,8 @@ p.excerpt { margin: 0; }
 }
 /* @end */
 #post-footer{
-	background-color: #cbecfc}
+	background-color: #cbecfc;
+	width: 90%;}
 /* @group Code */
 pre {
 	margin: 1em 0 1.5em 0;
