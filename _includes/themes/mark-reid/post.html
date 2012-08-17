@@ -1,10 +1,6 @@
 <div id="page">
 
   <h1 class="emphnext">{{ page.title }}</h1>
-<ul class="tag_box inline">
-  {% assign tags_list = page.tags %}
-  {% include JB/tags_list %}
-  </ul>
   <!-- JiaThis Button BEGIN -->
 <div id="jiathis_style_32x32">
 <a class="jiathis_button_tsina"></a>
@@ -26,7 +22,10 @@ var jiathis_config={
 </script>
 <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
 <!-- JiaThis Button END -->
-
+<ul class="tag_box inline">
+  {% assign tags_list = page.tags %}
+  {% include JB/tags_list %}
+  </ul>
   {{ content }}
 
 <div id="post-footer">
