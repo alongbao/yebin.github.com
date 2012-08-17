@@ -336,6 +336,8 @@ p.excerpt { margin: 0; }
 }
 /* @end */
 #post-footer{
+	padding: 5 5 5 5;
+	float: center;
 	background-color: #cbecfc;
 	width: 90%;}
 /* @group Code */
