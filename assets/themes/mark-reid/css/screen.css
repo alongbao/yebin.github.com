@@ -336,11 +336,10 @@ p.excerpt { margin: 0; }
 }
 /* @end */
 #post-footer{
-	padding: 5px 5px 5px 5px;
 	MARGIN-RIGHT: auto; 
 	MARGIN-LEFT: auto;
 	background-color: #cbecfc;
-	width: 90%;}
+	width: 95%;}
 /* @group Code */
 pre {
 	margin: 1em 0 1.5em 0;
