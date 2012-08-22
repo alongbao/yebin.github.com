@@ -42,7 +42,7 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 {% endhighlight %}
 	
 * 加入页面关键词 keywords
-{% highlight php %}
+{% highlight html %}
 {% if page.categories %}
 <meta name="keywords" content="{{ page.categories }}" />
 {% else %}
