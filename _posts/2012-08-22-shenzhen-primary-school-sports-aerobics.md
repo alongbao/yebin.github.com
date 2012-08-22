@@ -3,7 +3,7 @@ layout: post
 title: 健美操知识扫盲
 category: post
 tags: [健美操]
-description: "shenzhen primary school sports aerobics"
+description: 深圳一小学参赛世界青少年健美操锦标赛，获两金一铜，获省市媒体关注。特作健美操扫盲博文一篇，以减少大众对健美操认识到误区。
 ---
 {% include JB/setup %}
 
