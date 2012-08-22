@@ -4,7 +4,6 @@ title: 健美操知识扫盲
 category: post
 tags: [健美操]
 description: "shenzhen primary school sports aerobics"
-published: false
 ---
 {% include JB/setup %}
 
