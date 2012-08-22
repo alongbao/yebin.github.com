@@ -42,8 +42,7 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 {% endhighlight %}
 	
 * 加入页面关键词 keywords
-{% highlight php %}
-<?php
+{% highlight ruby %}
 {% if page.categories %}
 <meta name="keywords" content="{{ page.categories }}" />
 {% else %}
@@ -51,7 +50,6 @@ Jekyllboostrap 仅仅提供了文本的 404: not found，我自己编辑了一�
 {% else %}	
 <meta name="keywords" content="{{site.description}} />
 {% endif %}
-?>
 {% endhighlight %}	
 
 以上 keywords 的意义在于：
